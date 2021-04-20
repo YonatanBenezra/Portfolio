@@ -3,6 +3,8 @@ import "../../App.css";
 import { useHistory } from "react-router-dom";
 import AnimatedHeader from "./AnimatedHeader";
 import SecondaryText from './SecondaryText';
+import ContactCTA from '../projects/ContactCTA'
+
 import "./home.css";
 
 const Home = (props) => {
@@ -21,6 +23,9 @@ const Home = (props) => {
           <SecondaryText desktop={false} handleTourClick={handleTourClick} />
         </div>
         <SecondaryText desktop={true} handleTourClick={handleTourClick}/>
+      </div>
+      <div className="">
+      <ContactCTA/>
       </div>
     </div>
   );

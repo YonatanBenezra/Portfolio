@@ -69,7 +69,7 @@
     margin-top: 100px;
   }
   .gallery-gif {
-    width: 600px;
+    width: 550px;
   }
 }
 
@@ -84,7 +84,7 @@
 }
 @media only screen and (max-width: 491px) {
   .gallery-gif {
-    width: 400px;
+    width: 350px;
   }
 }
 @media only screen and (max-width: 375px) {
