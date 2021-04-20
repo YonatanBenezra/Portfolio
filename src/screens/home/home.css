@@ -1,0 +1,45 @@
+.main-body {
+  min-height: 80vh;
+}
+
+/*
+* xl-up is hidden from lg down, and is display flex align center
+* lg-down is hidden xl up, and is display flex align start 
+*/
+@media only screen and (min-width: 993px) {
+  .xl-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lg-down {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .xl-up {
+    display: none;
+  }
+  .lg-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  }
+  
+
+
+/* Shrink header sizing as screen size shrinks */
+@media only screen and (max-width: 375px) {
+  .header.home {
+    font-size: 52px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header.home {
+    font-size: 48px;
+  }
+}

@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.main-container {
+  min-height: 100vh;
+}
+
+h1.boldest {
+  font-size: 72px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 767px) {
+  h1.boldest {
+    font-size: 62px;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  h1.boldest {
+    font-size: 42px;
+    font-weight: 800;
+  }
+}
+
+.float {
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+h2 {
+  font-size: 84px;
+  color: var(--primary-color);
+}
+.link {
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.link:hover {
+  color: var(--tertiary-color);
+  text-decoration: underline;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}

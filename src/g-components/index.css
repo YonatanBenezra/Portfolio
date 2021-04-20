@@ -1,0 +1,62 @@
+@import url("../index.css");
+
+button {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* Use whatever font-family you want */
+  font-size: 1rem;
+  line-height: 1;
+  background: transparent;
+  -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 575px) {
+  div.non-hamburger {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 575px) {
+  div.hamburger-button {
+    display: none !important;
+  }
+}
+
+nav {
+  height: 10vh;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-a {
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.nav-a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.nav-link {
+  transition: all 0.15s ease-in-out;
+  font-size: 1rem;
+  text-decoration: none;
+}
+/* .nav-link:hover {
+  
+} */
+.secondary-link {
+  cursor: pointer !important;
+}
+.nav-link.secondary-link:hover {
+  transform: rotate(5deg);
+}
+.secondary {
+  color: var(--secondary-color);
+}
+.tertiary {
+  color: var(--tertiary-color);
+}
+.home-link {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,17 @@
+* {
+  font-family: "Poppins", sans-serif;
+  --primary-color: #2f294f;
+  --secondary-color: #f31145;
+  --tertiary-color: #FFA500;
+  color: var(--primary-color);
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
