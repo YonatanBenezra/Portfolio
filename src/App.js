@@ -8,7 +8,7 @@ import FullStackCourse from "./screens/case-studies/fullstackcourse/FullStackCou
 import Goolo from "./screens/case-studies/goolo/Goolo";
 import TripleIGroup from "./screens/case-studies/tripleigroup/tripleigroup";
 
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import "./App.scss";
 

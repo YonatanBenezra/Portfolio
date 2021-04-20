@@ -70,6 +70,7 @@ const ContactCTA = () => {
         </h2>
         <p className="stat-center m-0">
           <a
+            rel="noreferrer"
             target="blank"
             href="www.linkedin.com/in/yonatan119"
             className="animated-underline-3 underline-base white-link"
@@ -79,6 +80,7 @@ const ContactCTA = () => {
           </a>
           <span className="secondary"> | </span>
           <a
+            rel="noreferrer"
             target="blank"
             href="https://github.com/yonatan119"
             className="animated-underline-3 underline-base white-link"
@@ -87,6 +89,7 @@ const ContactCTA = () => {
           </a>
           <span className="secondary"> | </span>
           <a
+            rel="noreferrer"
            target="blank"
             href="https://drive.google.com/file/d/1IygjsoECAc5GHHvfGNyu393tzPc7V72E/view?usp=sharing"
             className="animated-underline-3 underline-base white-link"
@@ -95,6 +98,7 @@ const ContactCTA = () => {
           </a>
           <span className="secondary"> | </span>
           <a
+            rel="noreferrer"
             target="blank"
             href="https://wa.me/+972534355700"
             className="animated-underline-3 underline-base white-link"

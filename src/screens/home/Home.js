@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-import { BsArrowReturnRight } from "react-icons/bs";
 import { useHistory } from "react-router-dom";
 import AnimatedHeader from "./AnimatedHeader";
 import SecondaryText from './SecondaryText';

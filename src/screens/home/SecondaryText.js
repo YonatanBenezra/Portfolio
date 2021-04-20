@@ -3,8 +3,7 @@ import { BsArrowReturnRight } from "react-icons/bs";
 import './home.css';
 
 const SecondaryText = ({ handleTourClick, desktop }) => {
-  const [desktopClass, setDesktopClass] = useState(desktop);
-  console.log(desktopClass);
+  const [desktopClass] = useState(desktop);
 
 
     return (

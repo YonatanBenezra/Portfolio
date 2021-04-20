@@ -47,6 +47,7 @@ const Nav = (props) => {
         <li className="nav-link secondary-link d-flex justify-content-center align-items-center">
           <a
             target="_blank"
+            rel="noreferrer"
             className="nav-a pointer"
             href="https://drive.google.com/file/d/1IygjsoECAc5GHHvfGNyu393tzPc7V72E/view?usp=sharing"
           >
@@ -61,7 +62,7 @@ const Nav = (props) => {
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
         <li className="nav-link secondary-link d-flex justify-content-center align-items-center">
-          <a className="nav-a pointer" href="https://github.com/yonatan119" target="_blank">
+          <a className="nav-a pointer" href="https://github.com/yonatan119" target="_blank" rel="noreferrer">
             Github
           </a>
         </li>
@@ -74,6 +75,7 @@ const Nav = (props) => {
       >
         <li className="nav-link secondary-link d-flex justify-content-center align-items-center">
           <a
+          rel="noreferrer"
             target="_blank"
             className="nav-a pointer"
             href="https://www.linkedin.com/in/yonatan119/"
@@ -89,6 +91,7 @@ const Nav = (props) => {
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
         <a
+        rel="noreferrer"
           target="_blank"
           className="nav-a pointer"
           href='https://wa.me/+972534355700'

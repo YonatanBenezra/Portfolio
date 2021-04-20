@@ -174,6 +174,7 @@ const FullStackCourse = () => {
               <div className="col-12 d-flex justify-content-center align-items-center">
                 <h4>
                   <a
+                    rel="noreferrer"
                     target="blank"
                     href={"https://presentense-fullstack.netlify.com/"}
                     className="link-primary-color"

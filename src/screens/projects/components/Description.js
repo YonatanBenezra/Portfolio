@@ -22,6 +22,7 @@ const Description = (props) => {
         {githubLink ? (
           <>
             <a
+              rel="noreferrer"
               target="_blank"
               href={githubLink}
               className="stat-link animated-underline-3 underline-base"
@@ -34,6 +35,7 @@ const Description = (props) => {
           <span className="secondary">| </span>
         )}
         <a
+          rel="noreferrer"
           target="_blank"
           href={demoLink}
           className="stat-link animated-underline-3 underline-base"
