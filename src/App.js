@@ -21,7 +21,6 @@ const App = () => {
       <div className="container-fluid p-0">
         <Sidebar />
       </div>
-      <Router>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/case-studies/projects" component={Projects} />
@@ -29,8 +28,7 @@ const App = () => {
         <Route path="/case-studies/goolo.tk" component={Goolo} />
         <Route path="/case-studies/triple-i-group" component={TripleIGroup} />
       </Switch>
-      </Router>
-    </div>
+      </div>
   );
 };
 
