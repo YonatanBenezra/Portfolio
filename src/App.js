@@ -23,10 +23,10 @@ const App = () => {
       </div>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="https://yonatan119.netlify.app/projects" component={Projects} />
-        <Route path="https://yonatan119.netlify.app/case-studies/full-stack-course" component={FullStackCourse} />
-        <Route path="https://yonatan119.netlify.app/case-studies/goolo.tk" component={Goolo} />
-        <Route path="https://yonatan119.netlify.app/case-studies/triple-i-group" component={TripleIGroup} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/case-studies/full-stack-course" component={FullStackCourse} />
+        <Route path="/case-studies/goolo.tk" component={Goolo} />
+        <Route path="/case-studies/triple-i-group" component={TripleIGroup} />
       </Switch>
     </div>
   );
