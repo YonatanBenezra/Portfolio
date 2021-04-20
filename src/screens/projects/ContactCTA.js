@@ -100,10 +100,19 @@ const ContactCTA = () => {
           <a
             rel="noreferrer"
             target="blank"
-            href="https://wa.me/+972534355700"
+            href="https://wa.me/+9724355700"
             className="animated-underline-3 underline-base white-link"
           >
-            Contact
+            Whatsapp
+          </a>
+          <span className="secondary"> | </span>
+          <a
+            rel="noreferrer"
+            target="blank"
+            href={`mailto:yonatanbenezra1@gmail.com?subject="re:portfolio"`}
+            className="animated-underline-3 underline-base white-link"
+          >
+            E-Mail
           </a>
         </p>
       </div>

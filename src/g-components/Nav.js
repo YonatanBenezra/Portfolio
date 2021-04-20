@@ -9,6 +9,11 @@ const Nav = (props) => {
   const handleSidebarClick = () => {
     props.setShowSidebar(!props.showSidebar);
   };
+  const handleClick = (event) => {
+    event.preventDefault();
+    let element = document.getElementById(event.currentTarget.name);
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
 
   return (
     <nav className="row w-100 d-flex align-items-end pt-4">
@@ -91,10 +96,10 @@ const Nav = (props) => {
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
         <a
-        rel="noreferrer"
-          target="_blank"
+          href='#trigger-up'
+          name='trigger-up'
           className="nav-a pointer"
-          href='https://wa.me/+972534355700'
+          onClick={handleClick}
         >
           <li className="nav-link secondary-link d-flex justify-content-center align-items-center tertiary">
             Contact
