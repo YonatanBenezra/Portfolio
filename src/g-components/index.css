@@ -57,6 +57,9 @@ nav {
 .tertiary {
   color: var(--tertiary-color);
 }
+.success {
+  color: var(--success-color);
+}
 .home-link {
   font-size: 1.4rem;
 }

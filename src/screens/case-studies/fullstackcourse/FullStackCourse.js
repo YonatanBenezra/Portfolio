@@ -16,22 +16,23 @@ const FullStackCourse = () => {
           id="task"
         >
           <div className="col-xl-10 col-lg-12">
-            <h4>- Task/Goal</h4>
+            <h4><span className="primary">-</span> Task/Goal</h4>
               <h6>Teach students to be fullstack developers in 24 hours</h6>
             <p>
               A small explanation: 
               <br/>
               Not long ago, I started building a course for 13 asylum seekers and this is how it went.
             </p>
-            <h4>- How it went</h4>
+            <div className="dropdown-divider pb-5"></div>
+            <h4><span className="secondary">-</span> How it went</h4>
             <p>
-            <strong>stage 1: optimism</strong>
+            <strong className="animated-underline-3 underline-base">stage 1: optimism</strong>
             <br/>
               "All I need is to teach them the technologies needed! I got this"
               A few moments later..
               <br/>
               <br/>
-              <strong>stage 2: realism (that was quick.)</strong>
+              <strong className="animated-underline-3 underline-base">stage 2: realism (that was quick.)</strong>
               <br/>
               "Oh wait, there is html, css, js, node,js, express, mongoDB, react, mobx...
               thats alot to learn!
@@ -40,12 +41,12 @@ const FullStackCourse = () => {
               I have only 2 hours a week for three months.
               <br/>
               <br/>
-              <strong>stage 3: optimism!</strong>
+              <strong className="animated-underline-3 underline-base">stage 3: optimism!</strong>
               <br/>
               thats ok, because who can not learn how to build a fullstack application in 24 hours right?
               <br/>
               <br/>
-              <strong>stage 4: back to realism, yet again.. pretty quick huh?</strong>
+              <strong className="animated-underline-3 underline-base">stage 4: back to realism, yet again.. pretty quick huh?</strong>
               <br/>
               Ok, maybe this wont be so easy after all.
               I start teaching in two weeks and 24 hours is not really enough.
@@ -56,14 +57,14 @@ const FullStackCourse = () => {
               the problem is that the course is run by a non-profit organization so buying an lxp is not in the budget.
               <br/>
               <br/>
-              <strong>stage 5: Rationalism</strong>
+              <strong className="animated-underline-3 underline-base">stage 5: Rationalism</strong>
               <br/>
               "Well.. maybe I could build a simple lxp in one week and write the content on the second?
               that sounds rational!"
               I know.. I tend to think that a lot of things are rational.
             </p>
-              
-              <h4>How does it work?</h4>
+            <div className="dropdown-divider pb-5" style={{borderTop: "1px solid #FF3D57"}}></div>
+              <h4><span className="tertiary">-</span>How does it work?</h4>
               <p>
               <h6>There are 3 important pages</h6>
               <strong>"lessons" -</strong> which in it you can learn about each technology.
@@ -97,7 +98,7 @@ const FullStackCourse = () => {
             <div className="row w-100 pb-5 d-flex align-items-center no-gutters justify-content-center">
               <div className="col-xl-10 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-center">
-                  <h6><strong>- Approach</strong></h6>
+                  <h6><strong><span className="success">-</span> Approach</strong></h6>
                 </div>
                 <p>
                   Since I had only a sum of 24 hours to be with the students, the approach was to help them learn by their own.
@@ -120,17 +121,18 @@ const FullStackCourse = () => {
                 <h6><strong>Technologies/notable dependencies</strong></h6>
                 <ul>
                   <li>React</li>
-                  <li>Python</li>
-                  <li>Self-made Api</li>
-                  <li>Material-Ui</li>
-                  <li>Styled Components</li>
+                  <li className="secondary"><span>Python</span></li>
+                  <li className="tertiary"><span>Self-made Api</span></li>
+                  <li className="success"><span>Material-Ui</span></li>
+                  <li className="text-info"><span>Styled Components</span></li>
                 </ul>
               </div>
             </div>
+              <div className="dropdown-divider pb-5" style={{borderTop: "1px solid #00D748"}}></div>
             <div className="row w-100 pb-5 d-flex align-items-center no-gutters justify-content-center">
               <div className="col-xl-10 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
-                  <h6><strong>- Color Palette</strong></h6>
+                  <h6><strong><span className="text-info">-</span> Color Palette</strong></h6>
                 </div>
                 <p>
                   The site was meant for long reading at day or night so I
@@ -151,10 +153,11 @@ const FullStackCourse = () => {
                 </p>
               </div>
             </div>
+            <div className="dropdown-divider pb-5" style={{borderTop: "1px solid #17a2b8"}}></div>
             <div className="row w-100 pb-5 justify-content-center" >
               <div className="col-xl-10 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
-                  <h6><strong>- Purpose/Pages/Screens</strong></h6>
+                  <h6><strong><span className="secondary">-</span> Purpose/Pages/Screens</strong></h6>
                 </div>
                 <p>
                   The back-end offered a rich self-made api with all the material, lessons, projects, important links, students and mentors.

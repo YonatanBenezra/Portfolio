@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center">
         <ul className="big-list-ul">
-          <li className="big-list">
+          <li className="big-list primary">
             <a
               href="#fullstack-course"
               name="fullstack-course"
@@ -42,7 +42,7 @@ const Hero = () => {
               <span className="">e</span>
             </a>
           </li>
-          <li className="big-list">
+          <li className="big-list secondary">
             <a
               href="#goolo-tk"
               name="goolo-tk"
@@ -55,7 +55,7 @@ const Hero = () => {
               </span>
             </a>
           </li>
-          <li className="big-list">
+          <li className="big-list tertiary">
             <a
               href="#triple-i"
               name="triple-i"
@@ -65,7 +65,7 @@ const Hero = () => {
               Triple-i <span className="secondary-projectpage">Group</span>
             </a>
           </li>
-          <li className="big-list">
+          <li className="big-list success">
             <a
               href="#shaalilach"
               name="shaalilach"

@@ -16,20 +16,21 @@ const TripleIGroup = () => {
           id="task"
         >
           <div className="col-xl-10 col-lg-12 textblock">
-            <h4>- Task/Goal</h4>
+            <h4><span className="primary">-</span> Task/Goal</h4>
             <h6>Teach the arts of trade in the capital market</h6>
             <p>
               Three people led a community of thousands of mostly young trade enthusiasts, this is their site.
               It is a combination of articles, lectures, social media possibilities and courses.
 </p>
-            <h4>- How it went</h4>
+<div className="dropdown-divider pb-3"></div>
+            <h4><span className="secondary">-</span> How it went</h4>
             <p>
               This project was quite long since the ux/ui was very important, the need to the keep the customer inside of the site for as long as possible.
               <br/>
               therefore it is needed that the site will be extremely comfortable and will contain all the potential costumer needs, Which is mostly knowledge.
   </p>
-
-            <h4>How does it work?</h4>
+  <div className="dropdown-divider pb-3" style={{borderTop: "1px solid #FF3D57"}}></div>
+            <h4><span className="tertiary">-</span>How does it work?</h4>
             <p>
               <strong>•</strong> You enter the home page and the the popular stocks live, popular courses and the last articles written.
               <br />
@@ -66,7 +67,7 @@ const TripleIGroup = () => {
             <div className="row w-100 pb-5 d-flex align-items-center no-gutters justify-content-center">
               <div className="col-xl-10 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
-                  <h6><strong>- Approach</strong></h6>
+                  <h6><strong><span className="success">-</span> Approach</strong></h6>
                 </div>
                 <p>
                  This site was built while taking in consideration that the admins need an easy approach to upload articles, and change the site's data.
@@ -86,17 +87,18 @@ const TripleIGroup = () => {
               <div className="col-xl-12 col-md-12 d-flex flex-column justify-content-center align-items-center textblock pt-2 pb-0 mb-0">
                 <h6><strong>Technologies/notable dependencies</strong></h6>
                 <ul>
-                  <li>React</li>
-                  <li>Gatsby</li>
-                  <li>GraphQL</li>
-                  <li>Strapi</li>
+                  <li className="primary"><span>React</span></li>
+                  <li className="secondary"><span>Gatsby</span></li>
+                  <li className="tertiary"><span>GraphQL</span></li>
+                  <li className="success"><span>Strapi</span></li>
                 </ul>
               </div>
             </div>
+            <div className="dropdown-divider pb-5" style={{borderTop: "1px solid #00D748"}}></div>
             <div className="row w-100 pb-5 justify-content-center" >
               <div className="col-xl-10 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
-                  <h6><strong>- Summary</strong></h6>
+                  <h6><strong><span className="secondary">-</span> Summary</strong></h6>
                 </div>
                 <p>
                   This was one of the most Css-oriented projects I developed, it was a blast working on it. 

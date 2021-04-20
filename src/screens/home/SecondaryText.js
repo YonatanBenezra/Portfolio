@@ -7,10 +7,10 @@ const SecondaryText = ({ handleTourClick, desktop }) => {
 
 
     return (
-        <div data-aos="fade-up" data-aos-delay="1300" className={`${desktopClass === true ? `xl-up red` : `lg-down`} col-6`}>
-          <h5>
+        <div data-aos="fade-up" data-aos-delay="1300"  className={`${desktopClass === true ? `xl-up red` : `lg-down`} col-6`}>
+          <h5 onClick={handleTourClick}>
             Take&nbsp;the&nbsp; 
-            <span className="secondary link" onClick={handleTourClick}>
+            <span className="secondary link">
                 tour
             </span>
           </h5>

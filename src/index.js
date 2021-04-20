@@ -26,6 +26,9 @@ const theme = createMuiTheme({
     tertiary: {
       main: "#ea99fb",
     },
+    success: {
+      main: "#00D748",
+    },
   },
 });
 

@@ -1,8 +1,9 @@
 @import url("../../index.css");
 * {
-  --primary-color: #181046;
-  --secondary-color: #f31145;
-  --tertiary-color: #FFA500;
+  --primary-color: #434343;
+  --secondary-color: #FF3D57;
+  --tertiary-color: #FFCA00;
+  --success-color: #00D748;
 }
 
 /* HERO SECTION */
@@ -258,8 +259,8 @@
 }
 
 .contact-cta-container {
-  background-color: var(--primary-color);
-  color: white;
+  /* background-color: var(--success-color); */
+  color: black;
   min-height: 25vh;
   box-shadow: 0px -3px 20px 0px #00000010;
 }

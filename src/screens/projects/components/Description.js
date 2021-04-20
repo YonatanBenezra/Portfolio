@@ -14,7 +14,7 @@ const Description = (props) => {
   } = props;
   return (
     <div className="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center mobile-mid-align-centered">
-      <p className="stat-title">{role}</p>
+      <p className="stat-title ">{role}</p>
       <p className="stat mb-2 mobile-mid-centered p-1">{duties}</p>
       <p>Technologies:</p>
       <p className="stat mb-2 mobile-mid-centered">{stat1}</p>

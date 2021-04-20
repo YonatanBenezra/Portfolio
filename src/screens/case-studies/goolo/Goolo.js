@@ -16,13 +16,14 @@ const Goolo = () => {
           id="task"
         >
           <div className="col-xl-10 col-lg-12 textblock">
-            <h4>- Task/Goal</h4>
+            <h4><span className="primary">-</span> Task/Goal</h4>
               <h6>Buy a new jeans</h6>
             <p>
               After coming back from my 6 month trip to south america, I understood that the one Jeans
               I had the whole trip, is my only one jeans.
             </p>
-            <h4>- How it went</h4>
+            <div className="dropdown-divider pb-3"></div>
+            <h4><span className="secondary">-</span> How it went</h4>
             <p>
             So, what happens when the winter comes and you have only one jeans in the closet,
               but all the clothing stores are closed because a world-wide pandemic is loose?
@@ -44,8 +45,8 @@ const Goolo = () => {
               <br/>
               It did wonders for me, and helped me not only double but triple the amount of jeans I own :)
             </p>
-              
-              <h4>How does it work?</h4>
+            <div className="dropdown-divider pb-3" style={{borderTop: "1px solid #FF3D57"}}></div>
+              <h4><span className="tertiary">-</span> How does it work?</h4>
               <p>
               <strong>•</strong> You see a picture of a specific clothing and you swipe right if you like it or left if you don't (I know what your thinking, how didn't anyone think of this earlier, huh?).
               <br/>
@@ -83,7 +84,7 @@ const Goolo = () => {
             <div className="row w-100 pb-5 d-flex align-items-center no-gutters justify-content-center">
               <div className="col-xl-10 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
-                  <h6><strong>- Approach</strong></h6>
+                  <h6><strong><span className="success">-</span> Approach</strong></h6>
                 </div>
                 <p>
                   We did not have much time, because laundry day was getting near and it was getting pretty cold outside.
@@ -95,7 +96,7 @@ const Goolo = () => {
                   <br/>
                   • think of the architecture of the application
                   <br/>
-                  • open a <a traget="_blank" href="https://trello.com">trello</a> board and start organizing missions.
+                  • open a <a target="blank" rel="noopener noreferrer" href="https://trello.com">trello</a> board and start organizing missions.
                   <br/>
                   <br/>
                   The first step for me was to get the data, and by that I mean to scrape more than seven thousand different products from a known site clothing site so our algorithm would have enough choices to choose from.
@@ -123,18 +124,19 @@ const Goolo = () => {
                 <h6><strong>Technologies/notable dependencies</strong></h6>
                 <ul>
                   <li>React</li>
-                  <li>Mobx</li>
-                  <li>Node.js</li>
-                  <li>Express</li>
-                  <li>Sql</li>
-                  <li>Sequelize</li>
+                  <li className="secondary"><span>Mobx</span></li>
+                  <li className="tertiary"><span>Node.js</span></li>
+                  <li className="success"><span>Express</span></li>
+                  <li className="text-info"><span>Sql</span></li>
+                  <li className="secondary"><span>Sequelize</span></li>
                 </ul>
               </div>
             </div>
+            <div className="dropdown-divider pb-5" style={{borderTop: "1px solid #00D748"}}></div>
             <div className="row w-100 pb-5 d-flex align-items-center no-gutters justify-content-center">
               <div className="col-xl-10 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
-                  <h6><strong>- AI/Machine learning/Recommendations algorithm</strong></h6>
+                  <h6><strong><span className="text-info">-</span> AI/Machine learning/Recommendations algorithm</strong></h6>
                 </div>
                 <p>
                   This was my first time to handle any kind of AI algorithm, although it is not complex.
@@ -173,10 +175,11 @@ const Goolo = () => {
                 </p>
               </div>
             </div>
+            <div className="dropdown-divider pb-5" style={{borderTop: "1px solid #17a2b8"}}></div>
             <div className="row w-100 pb-5 justify-content-center" >
               <div className="col-xl-10 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
-                  <h6><strong>- Purpose/Pages/Screens</strong></h6>
+                  <h6><strong><span className="secondary">-</span> Purpose/Pages/Screens</strong></h6>
                 </div>
                 <p>
                   The back-end offered a rich Database with more than 7,000 products, a recommendation's algorithm/function and a learning mechanism.

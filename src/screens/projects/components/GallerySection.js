@@ -11,7 +11,7 @@ const GallerySection = ({ sectionData }) => {
     descriptionData,
   } = sectionData;
   return (
-    <div className="row w-100 bottom-margin-twenty" id={sectionId}>
+    <div className="row w-100 bottom-margin-twenty project" id={sectionId}>
       <div className="col-12 d-flex flex-column align-items-center justify-content-center mb-5">
         <h2
           className="project-heading mobile-mid-centered"

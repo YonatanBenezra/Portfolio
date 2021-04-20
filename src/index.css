@@ -1,8 +1,10 @@
 * {
   font-family: "Poppins", sans-serif;
-  --primary-color: #2f294f;
-  --secondary-color: #f31145;
-  --tertiary-color: #FFA500;
+  --primary-color: #434343;
+  --secondary-color: #FF3D57;
+  --tertiary-color: #FFCA00;
+  --success-color: #00D748;
+
   color: var(--primary-color);
 }
 body {
@@ -14,4 +16,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.project {
+  box-shadow: -21px 0px 20px 0px #00000010;
 }

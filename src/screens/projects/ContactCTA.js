@@ -7,14 +7,14 @@ const ContactCTA = () => {
   return (
     <div className="row w-100 fluid m-0 contact-cta-container d-flex justify-content-center">
       <div
-        className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center white-text"
+        className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center "
         id="trigger-up"
       >
-        <h2 className="white-text">
+        <h2 className="">
           <span
             // data-aos="fade-up"
             // data-aos-delay="25"
-            className="white-text"
+            className=""
             // data-aos-anchor-placement="center-bottom"
           >
             C
@@ -22,7 +22,7 @@ const ContactCTA = () => {
           <span
             // data-aos="fade-up"
             // data-aos-delay="100"
-            className="white-text"
+            className=""
             // data-aos-anchor-placement="center-bottom"
           >
             o
@@ -30,7 +30,7 @@ const ContactCTA = () => {
           <span
             // data-aos="fade-up"
             // data-aos-delay="125"
-            className="white-text"
+            className=""
             // data-aos-anchor-placement="center-bottom"
           >
             n
@@ -38,7 +38,7 @@ const ContactCTA = () => {
           <span
             // data-aos="fade-up"
             // data-aos-delay="50"
-            className="white-text"
+            className=""
             // data-aos-anchor-placement="center-bottom"
           >
             t
@@ -46,7 +46,7 @@ const ContactCTA = () => {
           <span
             // data-aos="fade-up"
             // data-aos-delay="150"
-            className="white-text"
+            className=""
             // data-aos-anchor-placement="center-bottom"
           >
             a
@@ -54,7 +54,7 @@ const ContactCTA = () => {
           <span
             // data-aos="fade-up"
             // data-aos-delay="20"
-            className="white-text"
+            className=""
             // data-aos-anchor-placement="center-bottom"
           >
             c
@@ -62,7 +62,7 @@ const ContactCTA = () => {
           <span
             // data-aos="fade-up"
             // data-aos-delay="150"
-            className="hover-up white-text"
+            className="hover-up "
             // data-aos-anchor-placement="center-bottom"
           >
             t
@@ -73,7 +73,7 @@ const ContactCTA = () => {
             rel="noreferrer"
             target="blank"
             href="www.linkedin.com/in/yonatan119"
-            className="animated-underline-3 underline-base white-link"
+            className="animated-underline-3 underline-base badge text-secondary"
             id="trigger-up"
           >
             LinkedIn
@@ -83,7 +83,7 @@ const ContactCTA = () => {
             rel="noreferrer"
             target="blank"
             href="https://github.com/yonatan119"
-            className="animated-underline-3 underline-base white-link"
+            className="animated-underline-3 underline-base badge text-secondary"
           >
             Github
           </a>
@@ -92,7 +92,7 @@ const ContactCTA = () => {
             rel="noreferrer"
            target="blank"
             href="https://drive.google.com/file/d/1IygjsoECAc5GHHvfGNyu393tzPc7V72E/view?usp=sharing"
-            className="animated-underline-3 underline-base white-link"
+            className="animated-underline-3 underline-base badge text-secondary"
           >
             Resume
           </a>
@@ -101,7 +101,7 @@ const ContactCTA = () => {
             rel="noreferrer"
             target="blank"
             href="https://wa.me/+9724355700"
-            className="animated-underline-3 underline-base white-link"
+            className="animated-underline-3 underline-base badge text-secondary"
           >
             Whatsapp
           </a>
@@ -110,7 +110,7 @@ const ContactCTA = () => {
             rel="noreferrer"
             target="blank"
             href={`mailto:yonatanbenezra1@gmail.com?subject="re:portfolio"`}
-            className="animated-underline-3 underline-base white-link"
+            className="animated-underline-3 underline-base badge text-secondary"
           >
             E-Mail
           </a>
@@ -119,7 +119,7 @@ const ContactCTA = () => {
       <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center">
         <br />
         <h5
-          className="white-text m-0"
+          className="text-secondary m-0"
           data-aos="fade-left"
           data-aos-delay="100"
           data-aos-anchor-placement="bottom-bottom"

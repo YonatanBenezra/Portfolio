@@ -20,7 +20,10 @@ const Nav = (props) => {
       <div className="col-xl-7 col-lg-7 col-md-2 col-sm-2 col-10 d-flex logo-flex align-items-center">
         <li className="nav-link col-12 pr-0 pl-0 home-link">
           <a className="nav-a pointer" href="/">
-            <span className="secondary">:</span>dev
+            <span className="primary">:</span>
+            <span className="secondary">d</span>
+            <span className="tertiary">e</span>
+            <span className="success">v</span>
           </a>
         </li>
       </div>
@@ -47,9 +50,9 @@ const Nav = (props) => {
         data-aos="fade-up"
         data-aos-anchor=".nav-a"
         data-aos-delay="0"
-        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
+        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger secondary"
       >
-        <li className="nav-link secondary-link d-flex justify-content-center align-items-center">
+        <li className="nav-link secondary-link d-flex justify-content-center align-items-center secondary">
           <a
             target="_blank"
             rel="noreferrer"
@@ -64,9 +67,9 @@ const Nav = (props) => {
         data-aos="fade-up"
         data-aos-anchor=".nav-a"
         data-aos-delay="0"
-        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
+        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger tertiary"
       >
-        <li className="nav-link secondary-link d-flex justify-content-center align-items-center">
+        <li className="nav-link secondary-link d-flex justify-content-center align-items-center tertiary">
           <a className="nav-a pointer" href="https://github.com/yonatan119" target="_blank" rel="noreferrer">
             Github
           </a>
@@ -76,9 +79,9 @@ const Nav = (props) => {
         data-aos="fade-up"
         data-aos-anchor=".nav-a"
         data-aos-delay="0"
-        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
+        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger success"
       >
-        <li className="nav-link secondary-link d-flex justify-content-center align-items-center">
+        <li className="nav-link secondary-link d-flex justify-content-center align-items-center success">
           <a
           rel="noreferrer"
             target="_blank"
@@ -101,7 +104,7 @@ const Nav = (props) => {
           className="nav-a pointer"
           onClick={handleClick}
         >
-          <li className="nav-link secondary-link d-flex justify-content-center align-items-center tertiary">
+          <li className="nav-link secondary-link d-flex justify-content-center align-items-center text-info">
             Contact
           </li>
         </a>
