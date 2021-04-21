@@ -12,58 +12,58 @@ const ContactCTA = () => {
       >
         <h2 className="">
           <span
-            // data-aos="fade-up"
-            // data-aos-delay="25"
-            className=""
-            // data-aos-anchor-placement="center-bottom"
+            data-aos="fade-up"
+            data-aos-delay="25"
+            className="contact"
+            data-aos-anchor-placement="center-bottom"
           >
             C
           </span>
           <span
-            // data-aos="fade-up"
-            // data-aos-delay="100"
-            className=""
-            // data-aos-anchor-placement="center-bottom"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className="contact"
+            data-aos-anchor-placement="center-bottom"
           >
             o
           </span>
           <span
-            // data-aos="fade-up"
-            // data-aos-delay="125"
-            className=""
-            // data-aos-anchor-placement="center-bottom"
+            data-aos="fade-up"
+            data-aos-delay="125"
+            className="contact"
+            data-aos-anchor-placement="center-bottom"
           >
             n
           </span>
           <span
-            // data-aos="fade-up"
-            // data-aos-delay="50"
-            className=""
-            // data-aos-anchor-placement="center-bottom"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            className="contact"
+            data-aos-anchor-placement="center-bottom"
           >
             t
           </span>
           <span
-            // data-aos="fade-up"
-            // data-aos-delay="150"
-            className=""
-            // data-aos-anchor-placement="center-bottom"
+            data-aos="fade-up"
+            data-aos-delay="150"
+            className="contact"
+            data-aos-anchor-placement="center-bottom"
           >
             a
           </span>
           <span
-            // data-aos="fade-up"
-            // data-aos-delay="20"
-            className=""
-            // data-aos-anchor-placement="center-bottom"
+            data-aos="fade-up"
+            data-aos-delay="20"
+            className="contact"
+            data-aos-anchor-placement="center-bottom"
           >
             c
           </span>
           <span
-            // data-aos="fade-up"
-            // data-aos-delay="150"
-            className="hover-up "
-            // data-aos-anchor-placement="center-bottom"
+            data-aos="fade-up"
+            data-aos-delay="250"
+            className="hover-up contact"
+            data-aos-anchor-placement="center-bottom"
           >
             t
           </span>

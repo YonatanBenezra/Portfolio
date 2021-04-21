@@ -22,7 +22,11 @@ export const SidebarData = [
     url: "https://www.linkedin.com/in/yonatan119",
   },
   {
-    title: "Contact",
+    title: "Whatsapp",
     url: "https://wa.me/+972524355700",
+  },
+  {
+    title: "E-mail",
+    url: `mailto:yonatanbenezra1@gmail.com?subject="re:portfolio"`,
   },
 ];
