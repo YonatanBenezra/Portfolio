@@ -91,7 +91,7 @@ const ContactCTA = () => {
           <a
             rel="noreferrer"
            target="blank"
-            href="https://drive.google.com/file/d/1NrdAnjUnMofBhlrh2a055E6tEfTe8pRR/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qQnCIzc-hzVvmkNFHcoPKvyBykgZv5QB/view?usp=sharing"
             className="animated-underline-3 underline-base badge text-secondary"
           >
             Resume
