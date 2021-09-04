@@ -72,7 +72,7 @@ const ContactCTA = () => {
           <a
             rel="noreferrer"
             target="blank"
-            href="www.linkedin.com/in/yonatan119"
+            href="www.linkedin.com/in/yonatanBenezra"
             className="animated-underline-3 underline-base badge text-secondary"
             id="trigger-up"
           >
@@ -82,7 +82,7 @@ const ContactCTA = () => {
           <a
             rel="noreferrer"
             target="blank"
-            href="https://github.com/yonatan119"
+            href="https://github.com/yonatanBenezra"
             className="animated-underline-3 underline-base badge text-secondary"
           >
             Github
@@ -91,7 +91,7 @@ const ContactCTA = () => {
           <a
             rel="noreferrer"
            target="blank"
-            href="https://drive.google.com/file/d/1qQnCIzc-hzVvmkNFHcoPKvyBykgZv5QB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GB8gw9Rc_wS4hOh5XIT73lQ_apNHu8hf/view?usp=sharing"
             className="animated-underline-3 underline-base badge text-secondary"
           >
             Resume

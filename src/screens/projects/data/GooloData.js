@@ -12,7 +12,7 @@ export const sectionData = {
     and developed an algorithm for recommendations`,
     stat1: "React, NodeJS, Express, Mobx, Puppeteer, Cheerio",
     stat2: "SQL, Sequelize, Css3",
-    githubLink: "https://github.com/yonatan119/goolo",
+    githubLink: "https://github.com/yonatanBenezra/goolo",
     demoLink: "https://goolo.tk",
     caseStudyUrl: "/case-studies/goolo.tk",
     showCaseStudy: true,

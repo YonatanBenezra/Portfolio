@@ -54,24 +54,52 @@ const AnimatedHeader = () => {
       </span>
       <span
         data-aos="fade-up"
-        data-aos-delay="200"
+        data-aos-delay="25"
         className="hover-up header home"
       >
-        1
+        B
       </span>
       <span
         data-aos="fade-up"
-        data-aos-delay="200"
+        data-aos-delay="100"
         className="hover-up header home"
       >
-        1
+        e
       </span>
       <span
         data-aos="fade-up"
-        data-aos-delay="200"
+        data-aos-delay="125"
         className="hover-up header home"
       >
-        9
+        n
+      </span>
+      <span
+        data-aos="fade-up"
+        data-aos-delay="150"
+        className="hover-up header home"
+      >
+        e
+      </span>
+      <span
+        data-aos="fade-up"
+        data-aos-delay="300"
+        className="hover-up header home"
+      >
+        z
+      </span>
+      <span
+        data-aos="fade-up"
+        data-aos-delay="400"
+        className="hover-up header home"
+      >
+        r
+      </span>
+      <span
+        data-aos="fade-up"
+        data-aos-delay="350"
+        className="hover-up header home"
+      >
+        a
       </span>
     </div>
   );

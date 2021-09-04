@@ -10,16 +10,16 @@ export const SidebarData = [
   {
     title: "Resume",
     url:
-      "https://drive.google.com/file/d/1qQnCIzc-hzVvmkNFHcoPKvyBykgZv5QB/view?usp=sharing",
+      "https://drive.google.com/file/d/1GB8gw9Rc_wS4hOh5XIT73lQ_apNHu8hf/view?usp=sharing",
   },
 
   {
     title: "Github",
-    url: "https://github.com/yonatan119",
+    url: "https://github.com/yonatanBenezra",
   },
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/yonatan119",
+    url: "https://www.linkedin.com/in/yonatanBenezra",
   },
   {
     title: "Whatsapp",

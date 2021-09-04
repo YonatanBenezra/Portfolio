@@ -57,7 +57,7 @@ const Nav = (props) => {
             target="_blank"
             rel="noreferrer"
             className="nav-a pointer"
-            href="https://drive.google.com/file/d/1qQnCIzc-hzVvmkNFHcoPKvyBykgZv5QB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1GB8gw9Rc_wS4hOh5XIT73lQ_apNHu8hf/view?usp=sharing"
           >
             Resume
           </a>
@@ -70,7 +70,7 @@ const Nav = (props) => {
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger tertiary"
       >
         <li className="nav-link secondary-link d-flex justify-content-center align-items-center tertiary">
-          <a className="nav-a pointer" href="https://github.com/yonatan119" target="_blank" rel="noreferrer">
+          <a className="nav-a pointer" href="https://github.com/yonatanBenezra" target="_blank" rel="noreferrer">
             Github
           </a>
         </li>
@@ -86,7 +86,7 @@ const Nav = (props) => {
           rel="noreferrer"
             target="_blank"
             className="nav-a pointer"
-            href="https://www.linkedin.com/in/yonatan119/"
+            href="https://www.linkedin.com/in/yonatanBenezra/"
           >
             Linkedin
           </a>
