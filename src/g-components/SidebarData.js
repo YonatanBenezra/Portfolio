@@ -10,7 +10,7 @@ export const SidebarData = [
   {
     title: "Resume",
     url:
-      "https://drive.google.com/file/d/1ccSQcSYB_DhylUu5_jgTAG_-o7Rtvfg8/view?usp=sharing",
+      "https://drive.google.com/file/d/1OqbpZGJYdsOwM-TxBBmvB5Fx_svo7CGV/view?usp=sharing",
   },
 
   {

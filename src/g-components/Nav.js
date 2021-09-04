@@ -57,7 +57,7 @@ const Nav = (props) => {
             target="_blank"
             rel="noreferrer"
             className="nav-a pointer"
-            href="https://drive.google.com/file/d/1ccSQcSYB_DhylUu5_jgTAG_-o7Rtvfg8/view?usp=sharing"
+            href="https://drive.google.com/file/d/1OqbpZGJYdsOwM-TxBBmvB5Fx_svo7CGV/view?usp=sharing"
           >
             Resume
           </a>
